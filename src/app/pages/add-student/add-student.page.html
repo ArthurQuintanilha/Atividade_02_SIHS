@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="medium">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>ATIVIDADE 02</ion-title>
+  </ion-toolbar>
+  
+  
+</ion-header>
+
+<ion-content >
+  <form >
+    <ion-item lines="none"><h1>Cadastro</h1></ion-item>
+    <!-- [formGroup]="fGroup" -->
+    <ion-item lines="none">
+      <!-- <ion-label position="stacked">Nome</ion-label> -->
+      <ion-input type="text" name="matricula" label="Matrícula" label-placement="floating" fill="outline" ></ion-input>
+      <!-- formControlName="email" -->
+    </ion-item>
+    <ion-item lines="none"></ion-item>
+    <ion-item lines="none">
+      <!-- <ion-label position="stacked">Nome</ion-label> -->
+      <ion-input type="text" name="nome" label="Nome" label-placement="floating" fill="outline" ></ion-input>
+      <!-- formControlName="email" -->
+    </ion-item>
+    <ion-item lines="none"></ion-item>
+    <ion-item>
+      <ion-select label="Selecione uma Opção" label-placement="floating">
+        <ion-select-option value="ds">Desenvolviemnto de Sistemas</ion-select-option>
+        <ion-select-option value="ed">Edificações</ion-select-option>
+        <ion-select-option value="qui">Química</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item lines="none"></ion-item>
+
+    <ion-button expand="block" color="dark">Salvar</ion-button>
+  </form>
+  
+</ion-content>

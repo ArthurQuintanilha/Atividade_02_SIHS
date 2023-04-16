@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar color="medium">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/login"></ion-back-button>
+    </ion-buttons>
+    <ion-title>ATIVIDADE 02</ion-title>
+  </ion-toolbar>
+  
+  
+</ion-header>
+
+<ion-content >
+  <form >
+    <!-- [formGroup]="fGroup" -->
+    <ion-item>
+      <!-- <ion-label position="stacked">Nome</ion-label> -->
+      <ion-input type="text" name="nome" label="Nome" labelPlacement="floating"></ion-input>
+      <!-- formControlName="email" -->
+    </ion-item>
+    <ion-item>
+      <!-- <ion-label position="stacked">E-mail</ion-label> -->
+      <ion-input type="email" name="email" label="E-mal" labelPlacement="floating" ></ion-input>
+      <!-- formControlName="email" -->
+    </ion-item>
+    <ion-item>
+      <!-- <ion-label position="stacked">Senha</ion-label> -->
+      <ion-input type="password" name="senha" label="Senha" labelPlacement="floating" ></ion-input>
+      <!-- formControlName="senha" -->
+    </ion-item>
+
+   
+      <ion-button expand="block" color="dark">Cadastrar</ion-button>
+    
+  
+  </form>
+  
+</ion-content>
